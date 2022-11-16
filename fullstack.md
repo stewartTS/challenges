@@ -8,7 +8,7 @@ Fork this repo so we can start tracking.
 There's no deadline, do it in your own time.
 
 ## User Story
-Users should be able to sign up in the application using their Github accounts. From the moment a user is logged in behind a protected route, a list of the top stories of hacker news should be presented.
+Users should be able to sign up in your application using their Github accounts. From the moment a user is logged in behind a protected route, a list of the top stories of hacker news should be presented.
 
 The user should be able to see the details of those stories (number of comments, score and creation date). When the user clicks on the comments counter, those comments should be presented in the screen without forcing the user to leave the current page.
 
