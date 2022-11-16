@@ -14,7 +14,7 @@ The user should be able to see the details of those stories (number of comments,
 
 The stories list should have a mechanism to perform pagination. When the user picks a story, they should be redirected to that respective story URL.
 
-## Stack and technical requisites
+## Stack and technical requirements
 For the fontrend we use GraphQL, NextJS, ReactNative, TypeScript and for backend C# around here. But you are free to use whatever you want as long as the client-server communication is built around GraphQL and Relay conventions.
 
 The frontend should be built in the React paradigm and follow Relay conventions.
