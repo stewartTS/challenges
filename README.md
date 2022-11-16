@@ -1,5 +1,5 @@
-# Problems
-Checkout our problems!
+# Challenges
+Checkout our Challenges!
 
 ### What we would love to see
 - Your ability to solve problems
