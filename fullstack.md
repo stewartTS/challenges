@@ -14,10 +14,12 @@ The user should be able to see the details of those stories (number of comments,
 
 The stories list should have a mechanism to perform pagination. When the user picks a story, they should be redirected to that respective story URL.
 
-## Stack and technical requirements
-For the fontrend we use GraphQL, NextJS, ReactNative, TypeScript and for backend C# around here. But you are free to use whatever you want as long as the client-server communication is built around GraphQL and Relay conventions.
+The user can add a story to a list of favourites that is kept by your application per each user.
 
-The frontend should be built in the React paradigm and follow Relay conventions.
+## Stack and technical requirements
+Your frontend should be built using the React paradigm. Other than that, you are free to choose your tech stack.
+
+For your reference, at Pego we're currently using GraphQL, NextJS, ReactNative and TypeScript for frontend, and C# for the backend.
 
 ### Requirements
 
