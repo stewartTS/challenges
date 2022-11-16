@@ -2,7 +2,8 @@
 Checkout our Challenges!
 
 ### What we would love to see
-- Your ability to solve problems
+- YYour ability to solve problems
+- Thinking about explicit requirements
 - Clean code (use linters)
 - TDD techniques
 

@@ -36,6 +36,7 @@ After fork, commit your changes in a way that we can clearly evaluate the develo
 ### References
 - [GitHub Oauth](https://developer.github.com/v3/oauth/)
 - [Hacker News API](https://github.com/HackerNews/API)
+- [General recommendations](README.md)
 
 ### Example
 ![hackernews](/imgs/hackernews.png)
