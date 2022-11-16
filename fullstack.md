@@ -1,4 +1,4 @@
-# Hacker News top stories with github authentication
+# Hacker News
 
 ## How to start
 Fork this repo so we can start tracking.
@@ -40,7 +40,7 @@ For your reference, at Pego we're currently using GraphQL, NextJS, ReactNative a
 After fork, commit your changes in a way that we can clearly evaluate the development process, and don't forget to add a README to help us to understand your project and run it =)
 
 ### References
-- [GitHub Oauth](https://developer.github.com/v3/oauth/)
+- [Auth0](https://auth0.com/docs)
 - [Hacker News API](https://github.com/HackerNews/API)
 - [General recommendations](README.md)
 
