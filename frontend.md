@@ -1,4 +1,4 @@
-# Hacker News top stories with github authentication
+# Hacker News
 
 ## How to start
 Fork this repo so we can start tracking.
@@ -14,8 +14,6 @@ The items should be grouped by type.
 
 The user should be able to see the details of those items according to their type (number of comments, score, options, creation date, and author). When the user clicks on the comments counter, those comments should be presented on the screen without forcing the user to leave the current page.
 
-The user can add a story to a list of favourites that is kept by your application per each user.
-
 The stories list should have a mechanism to perform pagination. When the user picks a story, they should be redirected to that respective story URL.
 
 Should be possible to see details about the author.
@@ -27,11 +25,9 @@ For your reference, at Pego we're currently using GraphQL, NextJS, ReactNative a
 
 ### Requirements
 
-- Frontend/backend should be secured.
+- Frontend should be secured.
 
 - Consider how your frontend tech applies to a mobile app.
-
-- Up to you to decide whether to use a database.
 
 - User experience is also evaluated.
 
@@ -40,7 +36,7 @@ For your reference, at Pego we're currently using GraphQL, NextJS, ReactNative a
 After fork, commit your changes in a way that we can clearly evaluate the development process, and don't forget to add a README to help us to understand your project and run it =)
 
 ### References
-- [GitHub Oauth](https://developer.github.com/v3/oauth/)
+- [Auth0](https://auth0.com/docs)
 - [Hacker News API](https://github.com/HackerNews/API)
 - [General recommendations](README.md)
 
