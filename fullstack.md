@@ -1,4 +1,4 @@
-Hacker News top stories with github authentication
+# Hacker News top stories with github authentication
 
 ## How to start
 Fork this repo so we can start counting the time
