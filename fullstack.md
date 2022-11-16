@@ -16,7 +16,7 @@ The user should be able to see the details of those items according to their typ
 
 The user can add a story to a list of favourites that is kept by your application per each user.
 
-The stories list should have a mechanism to perform pagination. When the user picks a story, they should be redirected to that respective story URL.
+The items list should have a mechanism to perform pagination. When the user picks an item, they should be redirected to that respective item URL if it exists.
 
 Should be possible to see details about the author.
 

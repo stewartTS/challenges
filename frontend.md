@@ -14,7 +14,7 @@ The items should be grouped by type.
 
 The user should be able to see the details of those items according to their type (number of comments, score, options, creation date, and author). When the user clicks on the comments counter, those comments should be presented on the screen without forcing the user to leave the current page.
 
-The stories list should have a mechanism to perform pagination. When the user picks a story, they should be redirected to that respective story URL.
+The items list should have a mechanism to perform pagination. When the user picks an item, they should be redirected to that respective item URL if it exists.
 
 Should be possible to see details about the author.
 
