@@ -38,5 +38,3 @@ After fork, commit your changes in a way that we can clearly evaluate the develo
 - [Hacker News API](https://github.com/HackerNews/API)
 - [General recommendations](README.md)
 
-### Example
-![hackernews](/imgs/hackernews.png)
