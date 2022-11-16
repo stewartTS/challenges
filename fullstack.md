@@ -33,7 +33,7 @@ For your reference, at Pego we're currently using GraphQL, NextJS, ReactNative a
 
 ### How to deliver your test
 
-After fork, commit your changes in a way that we can clearly evaluate the development process, and **don't forget to add a README to help us to understand your project and run it =)**
+After fork, commit your changes in a way that we can clearly evaluate the development process, and don't forget to add a README to help us to understand your project and run it =)
 
 ### References
 - [GitHub Oauth](https://developer.github.com/v3/oauth/)
