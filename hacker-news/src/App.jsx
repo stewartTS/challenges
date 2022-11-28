@@ -3,6 +3,9 @@ import "./App.css";
 import FilterButtons from "./Components/FilterButtons/FilterButtons";
 import Card from "./Components/Card/Card";
 import Pagination from "./Components/Pagination/Pagination";
+import LoginButton from "./Components/LoginButton/LoginButton";
+import LogoutButton from "./Components/LogoutButton/LogoutButton";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
   const [itemIds, setItemIds] = useState([]);
@@ -12,6 +15,7 @@ function App() {
   const postPerPage = 100;
   const lastPostIndex = currentPage * postPerPage;
   const firstPostIndex = lastPostIndex - postPerPage;
+  const { isAuthenticated } = useAuth0();
 
   const sortedStories = type
     ? stories.filter((story) => story.type == type)
@@ -55,19 +59,25 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">Hacker News</h1>
-      <div className="filter-bar-container">
-        <FilterButtons setType={setType} currentType={type} />
-      </div>
-      <Pagination
-        totalPosts={sortedStories?.length}
-        postsPerPage={postPerPage}
-        setCurrentPage={setCurrentPage}
-        currentPage={currentPage}
-      />
-      <div className="card-container">{renderStories()}</div>
-      {type == "poll" && (
-        <div className="no-show-message">
-          <p>There are no stories of this type at the moment</p>
+      {!isAuthenticated && <LoginButton />}
+      {isAuthenticated && (
+        <div>
+          <LogoutButton />
+          <div className="filter-bar-container">
+            <FilterButtons setType={setType} currentType={type} />
+          </div>
+          <Pagination
+            totalPosts={sortedStories?.length}
+            postsPerPage={postPerPage}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          />
+          <div className="card-container">{renderStories()}</div>
+          {type == "poll" && (
+            <div className="no-show-message">
+              <p>There are no stories of this type at the moment</p>
+            </div>
+          )}
         </div>
       )}
     </div>
