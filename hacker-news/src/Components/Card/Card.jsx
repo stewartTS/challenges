@@ -49,13 +49,11 @@ export default function Card({ data }) {
         Author: {data.by}
       </button>
       <p className="card-details">
-        <Moment>{data.time}</Moment>
+        <Moment unix>{data.time}</Moment>
       </p>
-      <button onClick={() => toggleComments()} className="card-details">
-        Comments: {data.score}
-      </button>
-      {data.url && (
-        <p className="card-details link">
+      <button className="card-details">Comments: {data.score}</button>
+      {data?.url && (
+        <p data-cy="link" className="card-details link">
           Link:{" "}
           <a target={"_blank"} href={data.url}>
             {data.url}
