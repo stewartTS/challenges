@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  padding: 12px;
+  padding-top: 0;
+  margin: 12px;
+  justify-content: center;
+  align-items: top;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+.author {
+  cursor: pointer;
+}
+
+.title {
+  padding-top: 12px;
+  margin: 0;
+}
+.card-details {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.link {
+  cursor: pointer;
+  overflow-wrap: break-word;
+}

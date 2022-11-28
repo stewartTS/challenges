@@ -1,0 +1,11 @@
+.pagination-bar {
+  margin-bottom: 12px;
+}
+
+.pagination-button {
+  border: 1px solid grey;
+}
+
+.pagination-button.active {
+  border: 2px solid white;
+}
